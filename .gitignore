@@ -23,6 +23,3 @@ dist-ssr
 *.sln
 *.sw?
 
-
-# carpeta public
-public
