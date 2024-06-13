@@ -15,13 +15,11 @@ export const GifExpertApp = () => {
 
   return (
     <>
-
         <h1>GifExpertApp</h1>
 
         <AddCategories         
           onNewCategory = {  onAddCategories }
          />
-        
       {
         categories.map( (category) =>(  
           <GifGrid 
